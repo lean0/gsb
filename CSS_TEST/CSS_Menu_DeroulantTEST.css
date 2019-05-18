@@ -1,0 +1,733 @@
+/* CSSSSSSSSS last version*/
+ body {
+     font-family: Century Gothic, sans serif;
+     margin: 0px;
+     padding: 0px;
+     padding-top: 0px;
+     padding-bottom: 0px;
+     background-color: #e9e2e9;
+}
+ .globalOne {
+     display: block;
+     top: 0px;
+     width: 100%;
+     position: fixed;
+     z-index: 100;
+}
+ #divTitre {
+     display: flex;
+     top: 0px;
+     width: 100%;
+     background-color: #001f44;
+     color: #0EB5F2;
+     height: 40px;
+     text-align: center;
+     transition: height 0.3s linear 0s;
+     z-index: -100;
+     overflow: hidden;
+}
+ #divTitre a img{
+     margin: 5px 0 5px 10px;
+     min-width: 50px;
+     max-height: 30px;
+     border-radius: 150px;
+}
+ #divTitre h1 {
+     margin : 0 10px 0 0;
+     width: 100%;
+}
+ #divTitre h1:hover{
+     cursor: default;
+}
+ #MenuTitle{
+     margin : auto;
+}
+ nav{
+     width: 100%;
+     background-color: #0EB5F2;
+}
+ nav ul{
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+}
+ ul li{
+     object-position:right;
+     width: 25%;
+     height: 100%;
+     list-style: none;
+     display: inline-block;
+     padding: 10px 0px 10px 0px;
+     text-align: center;
+     transition: 1s;
+     background-color: #0EB5F2;
+}
+ ul li a{
+     text-decoration: none;
+     color: #001f44;
+     padding: 10px 50px 10px 50px;
+}
+ ul li:hover{
+     background-color: #4169E1;
+     transition: 1s;
+}
+ .toggle{
+     width: 100%;
+     padding: 10px 20px;
+     background-color: #001f44;
+     text-align: right;
+     box-sizing: border-box;
+     color: #fff;
+     font-size: 20px;
+     display: none;
+}
+/* Commnu class for titles */
+/* RUUUBBBRIQQUUUEEE 0 */
+#BackTitre0{
+    height: 80px;
+}
+
+.ImgRb0{
+    width: 200px;
+    height: 200px;
+}
+
+ .VideoRb0{
+     width: 100%;
+     min-height: 400px;
+}
+ .row{
+     width: 90%;
+     margin: auto;
+     color: #001f44;
+}
+ .row:after {
+     content: "";
+     clear: both;
+     display: table;
+}
+ [class*="col-"] {
+     float: left;
+     padding: 15px;
+     width: 100%;
+}
+ .aside {
+     margin-top: 145px;
+     background-color: #0EB5F2;
+     padding: 5px 15px 15px 15px;
+     color: #001f44;
+     text-align: center;
+     font-size: 14px;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+     border-radius: 10px;
+}
+/* 0EB5FA */
+ .aside img{
+     margin-top: 10px;
+     min-width: 120px;
+     max-height: 70px;
+     border-radius: 150px;
+}
+ .footerRb0{
+     background-color: #0EB5F2;
+     color: #001f44;
+     text-align: center;
+     font-size: 12px;
+     padding: 15px;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+ .headerRb0 {
+     text-align: center;
+     background-color: #0EB5F2;
+     color: #001f44;
+     padding: 1px;
+}
+ .TitreRb0 >* {
+    margin:0;
+    padding:0;
+    border:0 none;
+    position: relative;
+    outline: none;
+}
+ .TitreRb0 {
+     width: 100%;
+     font-size: 3rem;
+     font-weight: normal;
+     text-align: center;
+     margin: auto;
+}
+ .TitreRb0 > a{
+     text-decoration: none;
+     color: #ffffff;
+     z-index: 1;
+     cursor: default;
+}
+ .TitreRb0 > a:before {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 3px;
+     bottom: 0;
+     left: 0;
+     background: #ffffff;
+     visibility: hidden;
+     border-radius: 5px;
+     transform: scaleX(0);
+     transition: .25s linear;
+}
+ .TitreRb0 > a:hover:before, .TitreRb0 > a:focus:before {
+     visibility: visible;
+     transform: scaleX(1);
+}
+/* Vers L'infini et l'audellaaaaa */
+ #BackTop {
+     position: fixed;
+     bottom: 10px;
+     right: 10px;
+     display: none;
+     border: #999;
+     padding: 5px 5px 0px 5px;
+     cursor: pointer;
+     border-radius: 20px;
+     font-size: 35px;
+     transition-duration: 0.3s;
+     opacity: 0.8;
+     background: transparent;
+     transition: all 1s;
+}
+ #BackTop:hover {
+     color: #fff;
+     background: black;
+}
+/* RUBRISUE n°1 */
+#BackTitre1{
+    height: 20px;
+}
+
+ #GeneralRb1{
+     width: 100%;
+     height: 30%;
+     background-color:#e9e2e9;
+     padding-top: 0%;
+     margin : 5% 0% 5% 0%;
+}
+ .boxDetails{
+     display: inline-block;
+     margin-top: 0%;
+     margin-left: 10%;
+     width: 20%;
+     height: 80%;
+     background-color: lightblue;
+     border-radius: 5%;
+     overflow: hidden;
+     font-size: 100%;
+     opacity: 0.8;
+     transition: 0.5s;
+}
+ .ImgRb1{
+     display: block;
+     width: 100%;
+     
+     opacity: 1;
+     overflow: hidden;
+}
+ .ImgRb1 img{
+     border-top-right-radius: 5%;
+     border-top-left-radius: 5%;
+     width: 100%;
+     height: 100%;
+}
+ .boxDetails:hover{
+     width: 21%;
+     height: 84%;
+     transition: 0.5s;
+     font-size: 108%;
+     opacity: 1;
+}
+
+ .sumary p{
+     margin: 5px 15px 5px 15px;
+     text-align: fixed;
+}
+ .Rb1TitreSum{
+     padding-top: 1rem;
+     margin: 0px;
+     font-size: 25px;
+     text-align: center;
+}
+ .TitreRb1 >* {
+    margin:0;
+    padding:0;
+    border:0 none;
+    position: relative;
+     outline: none;
+}
+ .TitreRb1 {
+     width: 100%;
+     font-size: 4rem;
+     font-weight: normal;
+     text-align: center;
+     color: #1CA1D1;
+     margin: 1rem auto 0;
+}
+ .TitreRb1 > a{
+     text-decoration: none;
+     color: #1CA1D1;
+     z-index: 1;
+     cursor: default;
+}
+ .TitreRb1 > a:before {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 3px;
+     bottom: 0;
+     left: 0;
+     background: #1CA1D1;
+     visibility: hidden;
+     border-radius: 5px;
+     transform: scaleX(0);
+     transition: .25s linear;
+}
+ .TitreRb1 > a:hover:before, .TitreRb1 > a:focus:before {
+     visibility: visible;
+     transform: scaleX(1);
+}
+/* SSSSSLLLLLLIIIIIDDDDEEEERRRR */
+ .TitreRb2 >* {
+    margin:0;
+    padding:0;
+    border:0 none;
+    position: relative;
+     outline: none;
+}
+ .TitreRb2 {
+     width: 100%;
+     font-size: 4rem;
+     font-weight: normal;
+     text-align: center;
+     color: #1CA1D1;
+     margin: 1rem auto 0;
+}
+ .TitreRb2 > a{
+     text-decoration: none;
+     color: #fff;
+     z-index: 1;
+     cursor: default;
+}
+ .TitreRb2 > a:before {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 3px;
+     bottom: 0;
+     left: 0;
+     background: #fff;
+     visibility: hidden;
+     border-radius: 5px;
+     transform: scaleX(0);
+     transition: .25s linear;
+}
+ .TitreRb2 > a:hover:before, .TitreRb2 > a:focus:before {
+     visibility: visible;
+     transform: scaleX(1);
+}
+ #BackTitre2{
+     height: 20px;
+}
+ #GeneralRb2{
+     background-color: #0EB5F2;
+     margin-bottom: 30px;
+}
+ #Slides {
+     padding-top: 0px;
+     padding-bottom:20px;
+}
+ .btn {
+     background: transparent;
+     border-radius: 28px;
+     font-family: Cursive;
+     color: black;
+     font-size: 20px;
+     padding: 0px 10px 0px 10px;
+     text-decoration: none;
+}
+ .btn:hover {
+     color: white;
+     text-decoration: bold;
+     font-size: 21px;
+}
+ #slideshow {
+     position: relative;
+    /*le parent positionné*/
+     width: 100%;
+    /*limite en largeur (1 élément du slideshow) */
+     height: 400px;
+    /*limite en hauteur*/
+     margin-top: 5px;
+     margin-bottom: 30px;
+     overflow: hidden;
+    /*on cache ce qui déborde,parce que c'est pas beau*/
+}
+ #sContent {
+     position: absolute;
+    /*on sort l'élément du flux*/
+     top: 0;
+    /*on le positionne précisément dans ...*/
+     left: 0;
+    /*l'angle haut gauche de son parent positionné*/
+     width: 300%;
+    /*ou y*100% pour les y element qu'il y aura*/
+     margin: 0;
+     padding: 0;
+     z-index: 10;
+    /* pour la priorité d'affichage */
+    /*CSS3 transition*/
+     -webkit-transition: all 1s;
+    /* histoire d'optimiser la compatibilité */
+     -moz-transition: all 1s;
+     -o-transition: all 1s;
+     transition: all 1s;
+}
+ #sContent li {
+     display: inline;
+     width: 100%;
+     height: 100%;
+    /*on aligne les éléments du slideshow*/
+}
+ #slideshow .imgSlider {
+     width: 33.3333333333%;
+    /* 33% pour 3 img ,25% pour 4 etc ... */
+     height: 400px;
+}
+ #sContent li .legend {
+     display: inline;
+     position: absolute;
+     margin-top: 380px;
+     z-index: 20;
+     width: 33.33333%;
+     height: 35%;
+     color: #FFF;
+     text-align: center;
+     background-color: black;
+     opacity: 0.6;
+    /* trraannsssition */
+     -webkit-transition: all 1s;
+    /* histoire d'optimiser la compatibilité */
+     -moz-transition: all 1s;
+     -o-transition: all 1s;
+     transition: all 1s;
+}
+ #sContent li .legend:hover {
+     margin-top: 270px;
+}
+ #slideshow .next, #slideshow .prev {
+     position: absolute;
+     top: 50%;
+     z-index: 20;
+    /* pour qu'il s'affiche au dessus des img */
+}
+ #slideshow .prev {
+     left: 0;
+}
+ #slideshow .next {
+     right: 0;
+}
+/* initialisation */
+ #slideshow .next, #slideshow .prev {
+     display: none;
+}
+ #slideshow .next1 {
+     display: block;
+}
+/*La Page nous contacter, il manque d y attacher la page du formulaire*/
+ #BackTitre3 {
+     margin-bottom: 50px;
+}
+ .TitreRb3 >* {
+     margin:0;
+     padding:0;
+     border:0 none;
+     position: relative;
+     outline: none;
+}
+ .TitreRb3 {
+     width: 100%;
+     font-size: 4rem;
+     font-weight: normal;
+     text-align: center;
+     color: #1CA1D1;
+     margin: 1rem auto 0;
+}
+ .TitreRb3 > a{
+     text-decoration: none;
+     color: #1CA1D1;
+     z-index: 1;
+     cursor: default; /* Pour quon ne puisse pas clicé dessus  */
+}
+ .TitreRb3 > a:before {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 3px;
+     bottom: 0;
+     left: 0;
+     background: #1CA1D1;
+     visibility: hidden;
+     border-radius: 5px;
+     transform: scaleX(0);
+     transition: .25s linear;
+}
+ .TitreRb3 > a:hover:before, .TitreRb3 > a:focus:before {
+     visibility: visible;
+     transform: scaleX(1);
+}
+#Map{
+    margin: 5% 0% 5% 0%;
+}
+
+ #Map iframe{
+     width: 40%;
+     margin-left: 40px;
+     border: 0;
+}
+ #Hours {
+     display: inline-block;
+     height: 300px;
+     width: 50%;
+     margin :50px 40px 0px 10px;
+     float: right;
+     bottom: 0;
+}
+ #Hours table{
+     border-collapse: collapse;
+     width: 100%;
+}
+ #Hours tr:nth-child(even) {
+     background-color: #00d2e2;
+}
+ #Hours td{
+     text-align: center;
+     padding: 10px;
+}
+ .Contact {
+     background-color: #0D757D;
+     border-radius: 4px;
+     color: #FFFFFF;
+     display: inline-block;
+     padding: 10px 10px;
+     font-size: 20px;
+     cursor: pointer;
+     text-align: center;
+     border: none;
+     transition: all 0.3s;
+     margin: 3px;
+     float: center;
+}
+ .Contact:hover {
+     background-color: #5882FA;
+     color: #2E2E2E;
+     padding-right: 15px;
+}
+ .Contact span {
+     cursor: pointer;
+     display: inline-block;
+     position: relative;
+     transition: 0.3s;
+}
+ .Contact span:after {
+     content: '\00bb';
+     position: absolute;
+     opacity: 0;
+     top: 0;
+     right: -15px;
+     transition: 0.3s;
+}
+ .Contact:hover span {
+     padding-right: 15px;
+}
+ .Contact:hover span:after {
+     opacity: 1;
+     right: 0;
+}
+/* FOOOOOTTTEEERRRRRR */
+ #Fin {
+     display: table;
+     height: 70px;
+     width: 100%;
+     bottom: 0;
+     right: 0;
+}
+ #DernierMot {
+     position: absolute;
+     width: 100%;
+     text-align: center;
+     font-size: 25px;
+     font-style: bold;
+     font-family: arial;
+     font-weight: 700;
+}
+ #Wink {
+     width: 20px;
+     height: 20px;
+}
+ #Bye {
+     text-align: center;
+     font-size: 700;
+     font-family: arial;
+     font-size: 20px;
+     font-style: bold;
+     text-shadow: 0px 0px 1px #D8D8D8;
+}
+
+/* Commun css titles properties yeah yeah  */
+.Titre{
+
+}
+
+/* partie Responsivité */
+ @media all and (max-width: 1080px){
+      .Rb1TitreSum{
+     padding-top :5px;
+     font-size: 22px;
+      }
+    .sumary p{
+     font-size: 12px;
+    }
+     #Map iframe{
+         width: 80%;
+         margin-left: 10%;
+    }
+     .toggle {
+         display: block;
+    }
+     .active{
+         display: block;
+         transition: height 0.3s linear 0s;
+    }
+     ul {
+         width: 100%;
+         display: none;
+    }
+     ul li {
+         width: 100%;
+         display: block;
+         text-align: center;
+    }
+     #Fin{
+         width: 100%;
+         height: 20%;
+         margin-top: 5%;
+    }
+     #Fin hr{
+         width: 100%;
+    }
+     #End{
+         font-size: auto;
+    }
+     #Wink{
+         width: auto;
+    }
+     #DernierMot{
+         font-size: 20px;
+    }
+     #Bye{
+         font-size: 16px;
+    }
+
+     p{
+         font-size: 14px;
+    }
+     #Map{
+         width: 100%;
+         margin: 5% 0% 5% 0%;
+    }
+     #Hours{
+         width: 100%;
+         height: 50%;
+         margin-bottom: 5%;
+    }
+     #Hours table{
+         margin-left: 5%;
+         margin-right: 5%;
+    }
+     #Hours td{
+         font-size: 14px;
+    }
+     .Contact{
+         margin-left: 15%;
+    }
+     #Mot{
+         font-size: 14px;
+         padding-bottom: 2px;
+         padding-top: 2px;
+         padding-left: 4px;
+         padding-right: 4px;
+    }
+     .Titre{
+         font-size: 3em;
+         margin-bottom: 0;
+    }
+}
+ @media only screen and (min-width: 600px) {
+
+     .col-s-10 {
+         width: 83.33%;
+         margin-left: 15%
+    }
+    /* class for 100% width screen for video */
+     .col-s-12 {
+         width: 100%;
+         margin-top: 0%;
+    }
+    /* pareil pour le text,pour optimiser la reponsivité : faudrais ajuster margin sur le ratio décroissant de width*/
+}
+ @media only screen and (max-width: 768px) {
+     .aside{
+        margin-top: 0%
+    }
+    .Titre{
+      display: /*   none   si on veut faire disparaitre les "gros" titre sous size 768 */;
+    }
+      .Rb1TitreSum{
+     padding-top: 5px;
+     font-size: 18px;
+      }
+    .sumary p{
+     font-size: 10px;
+    }
+}
+ @media only screen and (min-width: 768px) {
+     .col-6 {
+        width: 50%;
+    }
+     .col-3 {
+        width: 25%;
+    }
+}
+
+
+
+/*  test responsivité rubrique 1 */ 
+ @media only screen and (min-width: 1400px) {
+      .Rb1TitreSum{
+     font-size: 35px;
+      }
+     .sumary{
+     width: 100%;
+     min-height: 250px;
+     font-size: 20px;
+    }
+}
+
+ @media only screen and (min-width: 2000px) {
+     .Rb1TitreSum{
+        font-size: 40px;
+     }
+     .sumary{
+     width: 100%;
+     min-height: 300px;
+     font-size: 30px;
+    }
+}
+
